@@ -15,6 +15,7 @@ import { Form, PrimaryButton, FieldTextInput, CustomExtendedDataField } from '..
 import FieldSelectUserType from '../FieldSelectUserType';
 import UserFieldDisplayName from '../UserFieldDisplayName';
 import UserFieldPhoneNumber from '../UserFieldPhoneNumber';
+import UserFieldSiret from '../../../components/UserFieldSiret/UserFieldSiret';
 
 import css from './SignupForm.module.css';
 
@@ -195,6 +196,32 @@ const SignupFormComponent = props => (
                 userTypeConfig={userTypeConfig}
                 intl={intl}
               />
+            {/*
+<FieldTextInput
+
+  type="text"
+  id="siret"
+  name="siret"
+  label="SIRET"
+  placeholder="Votre SIRET ici..."
+  validate={validators.validateSiret}
+  className={css.row}
+
+/>*/}
+
+        <UserFieldSiret
+  name="siret"
+  formName="SignupForm"
+  className={css.row}
+  userTypeConfig={userTypeConfig}
+  intl={intl}
+
+
+
+
+/>
+
+
             </div>
           ) : null}
 

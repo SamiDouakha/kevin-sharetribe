@@ -1150,7 +1150,15 @@
   "UserCard.viewProfileLink": "Voir le profil",
   "UserDisplayName.banned": "Utilisateur banni",
   "UserDisplayName.deleted": "Utilisateur supprimé",
+
+  "UserFieldSiret.siretLabel": "SIRET",
+  "UserFieldSiret.siretPlaceholder": "Entrez votre numéro SIRET",
+  "UserFieldSiret.siretRequired": "Le numéro SIRET est requis",
+  "UserFieldSiret.siretInvalid": "Numéro SIRET invalide",
+
   "UserNav.accountSettings": "Réglages",
   "UserNav.profileSettings": "Profil",
   "UserNav.yourListings": "Mes annonces"
+
+
 }
